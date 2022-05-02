@@ -2,8 +2,59 @@
     margin: 0;
 }
 
+section {
+    margin-top: 20px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
 #cover {
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     height: 180px;
+}
+
+#autore {
+    color: #919191;
+    font-weight: 800;
+}
+
+#data {
+    color: #919191;
+    font-size: 10px;
+}
+
+#autor-link {
+
+    text-decoration: none;
+    color: #20A9E5;
+
+}
+.caption {
+    font-size: 10px;
+}
+
+/* Formattazione tabella */
+table {
+    text-align: left;
+    border-collapse: collapse;
+
+}
+table tr td:nth-child(1){
+    width: 20%;
+}
+table tr td:nth-child(2){
+    width: 20%;
+}
+table tr td:nth-child(3){
+    width: 60%;
+}
+table th {
+    background-color: #20A9E5;
+    color: white;
+}
+.colored_row {
+    background-color: #B1E5F2;
 }
