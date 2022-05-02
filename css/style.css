@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+
+#cover {
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    height: 180px;
+}
